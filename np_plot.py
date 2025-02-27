@@ -131,6 +131,9 @@ while True:
     plt.title('PPG Signal with Peak Detection')
     plt.xlabel('Sample Index')
     plt.ylabel('PPG Value')
+    
+    # Save the plot
+    plt.savefig("Heart Beat Plot.png")
     plt.legend()
     plt.show()
 
